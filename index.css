@@ -1,0 +1,33 @@
+html,
+body {
+    color: beige;
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+}
+
+body {
+    background: rgb(151, 163, 185);
+    font-size: 15px;
+    line-height: 1.64;
+}
+
+table {
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+a:link,
+a:visited {
+    color: beige;
+    font-family: "Open Sans", sans-serif;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: beige;
+    color: black;
+}

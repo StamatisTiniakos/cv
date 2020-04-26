@@ -1,0 +1,12 @@
+html,
+body {
+    color: beige;
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+}
+
+body {
+    background: rgb(151, 163, 185);
+    font-size: 35px;
+    line-height: 1.64;
+}

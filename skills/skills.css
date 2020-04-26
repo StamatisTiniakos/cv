@@ -1,0 +1,42 @@
+.row:before,
+.row:after {
+    display: table;
+    content: " ";
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+div {
+    display: block;
+}
+
+html,
+body {
+    color: beige;
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+}
+
+body {
+    background: rgb(151, 163, 185);
+    font-size: 35px;
+    line-height: 1.64;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.glyphicon-star:before {
+    content: "⭐";
+}
+
+.ability-score {
+    position: absolute;
+    left: 200px;
+}
