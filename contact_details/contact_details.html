@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Contact Details</title>
-    <meta name="description" content="">
+    <meta name="description" content="contact details">
     <link rel="stylesheet" type="text/css" href="contact_details.css">
 </head>
 
@@ -11,6 +11,22 @@
     <p>Email: <em>stam.tiniakos@gmail.com</em></p>
     <p>Mobile: <em>07715405724</em></p>
     <p><em><a href="https://www.linkedin.com/in/stamatis-tiniakos/">LinkedIn</a></em></p>
+    
+    <hr>
+    <form action="mailto:stam.tiniakos@gmail.com" method="post" enctype="text/plain">
+
+        <label for="Your Name">Enter your name: </label>
+        <input type="text" name="Your Name" id="Your Name" required><br>
+
+        <label for="Your Email Address">Enter your email: </label>
+        <input type="email" name="Your Email Address" id="Your Email Address" required><br>
+
+        <label for="Your Message">Enter your message: </label><br>
+        <textarea name="Your Message" id ="Your Message" rows="8" cols="80" required></textarea><br>
+
+        <input type="submit" value="Send Request" required>
+
+    </form>
 </body>
 
 </html>
